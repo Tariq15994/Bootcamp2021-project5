@@ -80,4 +80,4 @@ export class GraphglWebStack extends cdk.Stack {
       value: this.region,
     });
   }
-}
+};

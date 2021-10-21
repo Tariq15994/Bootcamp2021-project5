@@ -12,9 +12,9 @@ async function deleteTodo(todoId:string) {
     };
 
     try {
-        const data = await docClient(params).promise()
-        return data.Items;
-    }catch(err) {
+        await docClient.delete(params).promise()
+        return todoId;
+    } catch(err) {
         console.log("Dynamodb error : ", err);
         return null;
     }

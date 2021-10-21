@@ -7,13 +7,12 @@ async function addTodo(todo:Todo) {
         TableName: process.env.TODOS_TABLE,
         Item: todo 
     }
-    try{
+    try {
         await docClient.put(params).promise();
         return todo;
-    }catch(err) {
+    } catch(err) {
         console.log("Dynamodb error :", err);
         return null;
     }
-
 }
 export default addTodo;

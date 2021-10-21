@@ -1,0 +1,665 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "GraphglWebStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "GraphglWebStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/GraphglWebStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931",
+              "id": "7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931",
+              "packaging": "zip",
+              "sourceHash": "7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931",
+              "s3BucketParameter": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3BucketB0CDB86A",
+              "s3KeyParameter": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7",
+              "artifactHashParameter": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931ArtifactHashAD6F8DCB"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "GraphglWebStack.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
+              "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiF70053CD",
+            "trace": [
+              "new GraphqlApi (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:243:16)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:11:17)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/Schema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiSchema510EECD7",
+            "trace": [
+              "Schema.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/schema.ts:52:21)",
+              "new GraphqlApi (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:259:39)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:11:17)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiDefaultApiKeyF991C37B",
+            "trace": [
+              "GraphqlApi.createAPIKey (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:386:12)",
+              "new GraphqlApi (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:265:34)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:11:17)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasourceServiceRoleFBDA5B47",
+            "trace": [
+              "new Role (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new BaseDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:64:47)",
+              "new BackedDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:103:5)",
+              "new LambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:195:5)",
+              "GraphqlApi.addLambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:106:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:32:26)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasourceServiceRoleDefaultPolicyD8A60B9B",
+            "trace": [
+              "new Policy (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/role.ts:236:28)",
+              "Function.addToPrincipal (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/grant.ts:92:61)",
+              "Function.addToPrincipalOrResource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/grant.ts:48:26)",
+              "Function.grantInvoke (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:184:25)",
+              "new LambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:201:26)",
+              "GraphqlApi.addLambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:106:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:32:26)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasource64CCC421",
+            "trace": [
+              "new BaseDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:67:15)",
+              "new BackedDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:103:5)",
+              "new LambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:195:5)",
+              "GraphqlApi.addLambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:106:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:32:26)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/QuerygetTodosResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasourceQuerygetTodosResolver5D87555A",
+            "trace": [
+              "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
+              "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:35:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/MutationaddTodoResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasourceMutationaddTodoResolver9A78A7C0",
+            "trace": [
+              "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
+              "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:41:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/MutationupdateTodoResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasourceMutationupdateTodoResolver3ECD274D",
+            "trace": [
+              "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
+              "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:46:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Api/TodoDatasource/MutationdeleteTodoResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiTodoDatasourceMutationdeleteTodoResolver32B23FF6",
+            "trace": [
+              "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
+              "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:51:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/TodoLambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoLambdaServiceRole1ED23AFA",
+            "trace": [
+              "new Role (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:318:31)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/TodoLambda/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoLambdaServiceRoleDefaultPolicyF19CE3AA",
+            "trace": [
+              "new Policy (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/role.ts:236:28)",
+              "Function.addToPrincipal (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/grant.ts:92:61)",
+              "Table.combinedGrant (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:522:29)",
+              "Table.grantFullAccess (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:355:17)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:63:16)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/TodoLambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoLambda8D7FA7F9",
+            "trace": [
+              "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:388:35)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3BucketB0CDB86A",
+            "trace": [
+              "new FileAssetParameters (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "GraphglWebStack.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
+              "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7",
+            "trace": [
+              "new FileAssetParameters (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "GraphglWebStack.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
+              "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931ArtifactHashAD6F8DCB",
+            "trace": [
+              "new FileAssetParameters (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "GraphglWebStack.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
+              "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/TodosTable/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodosTable250330D8",
+            "trace": [
+              "new Table (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:678:18)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:56:24)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/GraphQLAPIURL": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GraphQLAPIURL",
+            "trace": [
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:69:5)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/GraphQLAPIKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GraphQLAPIKey",
+            "trace": [
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:74:5)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/Stack Region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "StackRegion",
+            "trace": [
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:79:5)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/GraphglWebStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:470:12)",
+              "process.emit (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/GraphglWebStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:470:12)",
+              "process.emit (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "GraphglWebStack"
+    }
+  }
+}

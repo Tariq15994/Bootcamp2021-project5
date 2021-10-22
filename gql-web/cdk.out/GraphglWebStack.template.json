@@ -20,7 +20,7 @@
             "ApiId"
           ]
         },
-        "Definition": "type Mutation {\n    addTodo(todo:TodoInput!):Todo\n    updateTodo(todo:TodoUpdateInput!): Todo\n    deleteTodo(todoId: String!): String\n}\n\ntype Query {\n    getTodo: [Todo]\n}\n\ntype Todo {\n    id: ID!\n    title: String!\n    done: Boolean! \n}\ntype TodoInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\ntype TodoUpdateInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}"
+        "Definition": "type Mutation {\n    addTodo(todo:TodoInput!):Todo\n    updateTodo(todo:TodoUpdateInput!): Todo\n    deleteTodo(todoId: String!): String\n}\n\ntype Query {\n    getTodo: [Todo]\n}\n\ntype Todo {\n    id: ID!\n    title: String!\n    done: Boolean! \n}\ntype TodoInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\ntype TodoUpdateInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\n"
       },
       "Metadata": {
         "aws:cdk:path": "GraphglWebStack/Api/Schema"
@@ -283,7 +283,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3BucketB0CDB86A"
+            "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586"
           },
           "S3Key": {
             "Fn::Join": [
@@ -296,7 +296,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7"
+                          "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2"
                         }
                       ]
                     }
@@ -309,7 +309,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7"
+                          "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2"
                         }
                       ]
                     }
@@ -342,7 +342,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "GraphglWebStack/TodoLambda/Resource",
-        "aws:asset:path": "asset.7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931",
+        "aws:asset:path": "asset.b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
         "aws:asset:property": "Code"
       }
     },
@@ -375,7 +375,7 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAA/1VQy27CMBD8Fu7O0tAKrgWq9lCk0qQ/sLENmMR26gdVZPnfGzuiSk8zs559eEoI5WoND4tn/LEFZe2SasMh1A5pS/ZaWWc8dWR/Ukc0KLnjJokP73qfyxW32hvKEx/9TDihVSTlajOfGhIJ2Pd2UBTCm8H+8t1te5Hasvo8/Fc1vXCJqTDW3/lADigbhi/osP5bOFPpju42XXfnkQiUECrdZXfGo+4EHfKHMouky4MhvHpF0/Hp7c4jsY8FWsudhW2CUcPO05a7HVpO2KBQatZA+MJm2pJJjGQKMjeNaZ6FOs/yvKcWR6PSjMPVLm/lE5QbWC+uVojCeOWE5FBN+AuExUGWqQEAAA=="
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/1VQy1LDMAz8lt4dlQAHuNGWgQOdoST8gGKL1k1sBz/KZDz+d2IXmHLS7krWrlVDfX0PV4sH/HIVF/0ycmMJYuuR92zlHPkZ7qXes43RztvAPdt86B1aVOTJsoacCZZTVl+DH0PpX6rzQyG9NDqx7BJxHN2kOcRni+Phc1iNMo8V9rb9z1p+IIVZmPUXmtgWVSfwET22fwYXLPsOpznWT4aME5OoIDZmKNOl7swg+VR+UlBiQ1kM8SlonsPm3i9OzN1UmI/hoNxk5rAOvCe/RkdMTBqVER3Ed+zOLgWklJg2guDolqf6Fuo7qBdHJ2Vlg/ZSETTn+g2Lqe14hwEAAA=="
       },
       "Metadata": {
         "aws:cdk:path": "GraphglWebStack/CDKMetadata/Default"
@@ -384,17 +384,17 @@
     }
   },
   "Parameters": {
-    "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3BucketB0CDB86A": {
+    "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586": {
       "Type": "String",
-      "Description": "S3 bucket for asset \"7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931\""
+      "Description": "S3 bucket for asset \"b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24\""
     },
-    "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7": {
+    "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2": {
       "Type": "String",
-      "Description": "S3 key for asset version \"7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931\""
+      "Description": "S3 key for asset version \"b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24\""
     },
-    "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931ArtifactHashAD6F8DCB": {
+    "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24ArtifactHashA8B2AE00": {
       "Type": "String",
-      "Description": "Artifact hash for asset \"7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931\""
+      "Description": "Artifact hash for asset \"b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24\""
     }
   },
   "Outputs": {

@@ -9,7 +9,7 @@
         "path": "Tree",
         "constructInfo": {
           "fqn": "@aws-cdk/core.Construct",
-          "version": "1.126.0"
+          "version": "1.129.0"
         }
       },
       "GraphglWebStack": {
@@ -33,7 +33,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-appsync.CfnGraphQLApi",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               },
               "Schema": {
@@ -48,12 +48,12 @@
                         "ApiId"
                       ]
                     },
-                    "definition": "type Mutation {\n    addTodo(todo:TodoInput!):Todo\n    updateTodo(todo:TodoUpdateInput!): Todo\n    deleteTodo(todoId: String!): String\n}\n\ntype Query {\n    getTodo: [Todo]\n}\n\ntype Todo {\n    id: ID!\n    title: String!\n    done: Boolean! \n}\ntype TodoInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\ntype TodoUpdateInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}"
+                    "definition": "type Mutation {\n    addTodo(todo:TodoInput!):Todo\n    updateTodo(todo:TodoUpdateInput!): Todo\n    deleteTodo(todoId: String!): String\n}\n\ntype Query {\n    getTodo: [Todo]\n}\n\ntype Todo {\n    id: ID!\n    title: String!\n    done: Boolean! \n}\ntype TodoInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\ntype TodoUpdateInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\n"
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-appsync.CfnGraphQLSchema",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               },
               "DefaultApiKey": {
@@ -72,7 +72,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-appsync.CfnApiKey",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               },
               "TodoDatasource": {
@@ -105,7 +105,7 @@
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-iam.CfnRole",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       },
                       "DefaultPolicy": {
@@ -143,19 +143,19 @@
                             },
                             "constructInfo": {
                               "fqn": "@aws-cdk/aws-iam.CfnPolicy",
-                              "version": "1.127.0"
+                              "version": "1.129.0"
                             }
                           }
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-iam.Policy",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-iam.Role",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "Resource": {
@@ -190,7 +190,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-appsync.CfnDataSource",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "QuerygetTodosResolver": {
@@ -217,13 +217,13 @@
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-appsync.CfnResolver",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-appsync.Resolver",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "MutationaddTodoResolver": {
@@ -250,13 +250,13 @@
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-appsync.CfnResolver",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-appsync.Resolver",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "MutationupdateTodoResolver": {
@@ -283,13 +283,13 @@
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-appsync.CfnResolver",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-appsync.Resolver",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "MutationdeleteTodoResolver": {
@@ -316,25 +316,25 @@
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-appsync.CfnResolver",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-appsync.Resolver",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-appsync.LambdaDataSource",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-appsync.GraphqlApi",
-              "version": "1.127.0"
+              "version": "1.129.0"
             }
           },
           "TodoLambda": {
@@ -381,7 +381,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-iam.CfnRole",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "DefaultPolicy": {
@@ -424,19 +424,19 @@
                         },
                         "constructInfo": {
                           "fqn": "@aws-cdk/aws-iam.CfnPolicy",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-iam.Policy",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-iam.Role",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               },
               "Code": {
@@ -448,7 +448,7 @@
                     "path": "GraphglWebStack/TodoLambda/Code/Stage",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.AssetStaging",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   },
                   "AssetBucket": {
@@ -460,19 +460,19 @@
                         "path": "GraphglWebStack/TodoLambda/Code/AssetBucket/Notifications",
                         "constructInfo": {
                           "fqn": "@aws-cdk/core.Construct",
-                          "version": "1.127.0"
+                          "version": "1.129.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-s3.BucketBase",
-                      "version": "1.127.0"
+                      "version": "1.129.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-s3-assets.Asset",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               },
               "Resource": {
@@ -483,7 +483,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3BucketB0CDB86A"
+                        "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -496,7 +496,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7"
+                                      "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2"
                                     }
                                   ]
                                 }
@@ -509,7 +509,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931S3VersionKey6B798FB7"
+                                      "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2"
                                     }
                                   ]
                                 }
@@ -539,57 +539,57 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-lambda.CfnFunction",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-lambda.Function",
-              "version": "1.127.0"
+              "version": "1.129.0"
             }
           },
           "AssetParameters": {
             "id": "AssetParameters",
             "path": "GraphglWebStack/AssetParameters",
             "children": {
-              "7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931": {
-                "id": "7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931",
-                "path": "GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931",
+              "b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24": {
+                "id": "b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
+                "path": "GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
                 "children": {
                   "S3Bucket": {
                     "id": "S3Bucket",
-                    "path": "GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931/S3Bucket",
+                    "path": "GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24/S3Bucket",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.CfnParameter",
-                      "version": "1.126.0"
+                      "version": "1.129.0"
                     }
                   },
                   "S3VersionKey": {
                     "id": "S3VersionKey",
-                    "path": "GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931/S3VersionKey",
+                    "path": "GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24/S3VersionKey",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.CfnParameter",
-                      "version": "1.126.0"
+                      "version": "1.129.0"
                     }
                   },
                   "ArtifactHash": {
                     "id": "ArtifactHash",
-                    "path": "GraphglWebStack/AssetParameters/7e3bb19a4d4a66a335fc604d2c6e9cd494d09a9767ee0f7e9602239b03ce7931/ArtifactHash",
+                    "path": "GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24/ArtifactHash",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.CfnParameter",
-                      "version": "1.126.0"
+                      "version": "1.129.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.Construct",
-                  "version": "1.126.0"
+                  "version": "1.129.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/core.Construct",
-              "version": "1.126.0"
+              "version": "1.129.0"
             }
           },
           "TodosTable": {
@@ -622,7 +622,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-dynamodb.CfnTable",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               },
               "ScalingRole": {
@@ -630,13 +630,13 @@
                 "path": "GraphglWebStack/TodosTable/ScalingRole",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.Resource",
-                  "version": "1.127.0"
+                  "version": "1.129.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-dynamodb.Table",
-              "version": "1.127.0"
+              "version": "1.129.0"
             }
           },
           "GraphQLAPIURL": {
@@ -644,7 +644,7 @@
             "path": "GraphglWebStack/GraphQLAPIURL",
             "constructInfo": {
               "fqn": "@aws-cdk/core.CfnOutput",
-              "version": "1.126.0"
+              "version": "1.129.0"
             }
           },
           "GraphQLAPIKey": {
@@ -652,7 +652,7 @@
             "path": "GraphglWebStack/GraphQLAPIKey",
             "constructInfo": {
               "fqn": "@aws-cdk/core.CfnOutput",
-              "version": "1.126.0"
+              "version": "1.129.0"
             }
           },
           "Stack Region": {
@@ -660,7 +660,7 @@
             "path": "GraphglWebStack/Stack Region",
             "constructInfo": {
               "fqn": "@aws-cdk/core.CfnOutput",
-              "version": "1.126.0"
+              "version": "1.129.0"
             }
           },
           "CDKMetadata": {
@@ -672,7 +672,7 @@
                 "path": "GraphglWebStack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnResource",
-                  "version": "1.126.0"
+                  "version": "1.129.0"
                 }
               },
               "Condition": {
@@ -680,25 +680,25 @@
                 "path": "GraphglWebStack/CDKMetadata/Condition",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnCondition",
-                  "version": "1.126.0"
+                  "version": "1.129.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/core.Construct",
-              "version": "1.126.0"
+              "version": "1.129.0"
             }
           }
         },
         "constructInfo": {
           "fqn": "@aws-cdk/core.Stack",
-          "version": "1.126.0"
+          "version": "1.129.0"
         }
       }
     },
     "constructInfo": {
       "fqn": "@aws-cdk/core.App",
-      "version": "1.126.0"
+      "version": "1.129.0"
     }
   }
 }

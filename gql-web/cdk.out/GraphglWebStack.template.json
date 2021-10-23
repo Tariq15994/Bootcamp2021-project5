@@ -20,7 +20,7 @@
             "ApiId"
           ]
         },
-        "Definition": "type Mutation {\n    addTodo(todo:TodoInput!):Todo\n    updateTodo(todo:TodoUpdateInput!): Todo\n    deleteTodo(todoId: String!): String\n}\n\ntype Query {\n    getTodo: [Todo]\n}\n\ntype Todo {\n    id: ID!\n    title: String!\n    done: Boolean! \n}\ntype TodoInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\ntype TodoUpdateInput {\n    id: ID!\n    title: String!\n    done: Boolean!\n}\n"
+        "Definition": "type Mutation {\n  addTodo(todo: TodoInput!): Todo\n  updateTodo(todo: TodoUpdateInput!): Todo\n  deleteTodo(todoId: String!): String\n}\n\ntype Query {\n  getTodos: [Todo]\n}\n\ntype Todo {\n  id: ID!\n  title: String!\n  done: Boolean!\n}\n\ninput TodoInput {\n  id: ID!\n  title: String!\n  done: Boolean!\n}\ninput TodoUpdateInput {\n  id: ID!\n  title: String!\n  done: Boolean!\n}\n"
       },
       "Metadata": {
         "aws:cdk:path": "GraphglWebStack/Api/Schema"
@@ -283,7 +283,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586"
+            "Ref": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3BucketCE2BED63"
           },
           "S3Key": {
             "Fn::Join": [
@@ -296,7 +296,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2"
+                          "Ref": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3VersionKeyBDB906FF"
                         }
                       ]
                     }
@@ -309,7 +309,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2"
+                          "Ref": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3VersionKeyBDB906FF"
                         }
                       ]
                     }
@@ -342,7 +342,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "GraphglWebStack/TodoLambda/Resource",
-        "aws:asset:path": "asset.b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
+        "aws:asset:path": "asset.3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db",
         "aws:asset:property": "Code"
       }
     },
@@ -384,17 +384,17 @@
     }
   },
   "Parameters": {
-    "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586": {
+    "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3BucketCE2BED63": {
       "Type": "String",
-      "Description": "S3 bucket for asset \"b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24\""
+      "Description": "S3 bucket for asset \"3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db\""
     },
-    "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2": {
+    "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3VersionKeyBDB906FF": {
       "Type": "String",
-      "Description": "S3 key for asset version \"b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24\""
+      "Description": "S3 key for asset version \"3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db\""
     },
-    "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24ArtifactHashA8B2AE00": {
+    "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbArtifactHashB1BAEFB9": {
       "Type": "String",
-      "Description": "Artifact hash for asset \"b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24\""
+      "Description": "Artifact hash for asset \"3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db\""
     }
   },
   "Outputs": {

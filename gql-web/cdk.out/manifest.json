@@ -19,13 +19,13 @@
           {
             "type": "aws:cdk:asset",
             "data": {
-              "path": "asset.b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
-              "id": "b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
+              "path": "asset.3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db",
+              "id": "3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db",
               "packaging": "zip",
-              "sourceHash": "b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24",
-              "s3BucketParameter": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586",
-              "s3KeyParameter": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2",
-              "artifactHashParameter": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24ArtifactHashA8B2AE00"
+              "sourceHash": "3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db",
+              "s3BucketParameter": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3BucketCE2BED63",
+              "s3KeyParameter": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3VersionKeyBDB906FF",
+              "artifactHashParameter": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbArtifactHashB1BAEFB9"
             },
             "trace": [
               "ConstructNode.addMetadata (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/construct-compat.ts:252:92)",
@@ -36,7 +36,7 @@
               "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
               "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
               "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:28:25)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -62,7 +62,7 @@
             "data": "ApiF70053CD",
             "trace": [
               "new GraphqlApi (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:243:16)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:14:17)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:11:17)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -89,7 +89,7 @@
             "trace": [
               "Schema.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/schema.ts:52:21)",
               "new GraphqlApi (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:259:39)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:14:17)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:11:17)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -116,7 +116,7 @@
             "trace": [
               "GraphqlApi.createAPIKey (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:386:12)",
               "new GraphqlApi (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:265:34)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:14:17)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:11:17)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -146,7 +146,7 @@
               "new BackedDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:103:5)",
               "new LambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:195:5)",
               "GraphqlApi.addLambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:106:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:35:26)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:32:26)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -178,7 +178,7 @@
               "Function.grantInvoke (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:184:25)",
               "new LambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:201:26)",
               "GraphqlApi.addLambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:106:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:35:26)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:32:26)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -207,7 +207,7 @@
               "new BackedDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:103:5)",
               "new LambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:195:5)",
               "GraphqlApi.addLambdaDataSource (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:106:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:35:26)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:32:26)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -234,7 +234,7 @@
             "trace": [
               "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
               "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:38:14)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:34:14)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -261,7 +261,7 @@
             "trace": [
               "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
               "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:44:14)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:39:14)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -288,7 +288,7 @@
             "trace": [
               "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
               "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:49:14)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:43:14)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -315,7 +315,7 @@
             "trace": [
               "new Resolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:56:21)",
               "LambdaDataSource.createResolver (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:80:12)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:54:14)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:48:14)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -342,7 +342,7 @@
             "trace": [
               "new Role (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
               "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:318:31)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:28:25)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -372,7 +372,7 @@
               "Function.addToPrincipal (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-iam/lib/grant.ts:92:61)",
               "Table.combinedGrant (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:525:29)",
               "Table.grantFullAccess (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:358:17)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:66:16)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:59:16)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -398,7 +398,7 @@
             "data": "TodoLambda8D7FA7F9",
             "trace": [
               "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:388:35)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:28:25)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -418,10 +418,10 @@
             ]
           }
         ],
-        "/GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24/S3Bucket": [
+        "/GraphglWebStack/AssetParameters/3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db/S3Bucket": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3BucketDA48B586",
+            "data": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3BucketCE2BED63",
             "trace": [
               "new FileAssetParameters (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
               "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
@@ -431,7 +431,7 @@
               "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
               "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
               "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:28:25)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -451,10 +451,10 @@
             ]
           }
         ],
-        "/GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24/S3VersionKey": [
+        "/GraphglWebStack/AssetParameters/3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db/S3VersionKey": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24S3VersionKeyFF9311D2",
+            "data": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbS3VersionKeyBDB906FF",
             "trace": [
               "new FileAssetParameters (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
               "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
@@ -464,7 +464,7 @@
               "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
               "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
               "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:28:25)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -484,10 +484,10 @@
             ]
           }
         ],
-        "/GraphglWebStack/AssetParameters/b4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24/ArtifactHash": [
+        "/GraphglWebStack/AssetParameters/3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3db/ArtifactHash": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParametersb4b13e42de8aa5dae9e3ef4b158c8ec387c3f7b856dcd90df6869e6dfe80be24ArtifactHashA8B2AE00",
+            "data": "AssetParameters3cde551541db1a4545780eb537712de0ef9e57f11265b7a4f55e099b980df3dbArtifactHashB1BAEFB9",
             "trace": [
               "new FileAssetParameters (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
               "LegacyStackSynthesizer.doAddFileAsset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
@@ -497,7 +497,7 @@
               "new Asset (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
               "AssetCode.bind (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/code.ts:183:20)",
               "new Function (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-lambda/lib/function.ts:338:29)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:28:25)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:25:25)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -523,7 +523,7 @@
             "data": "TodosTable250330D8",
             "trace": [
               "new Table (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:681:18)",
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:59:24)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:53:24)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -548,7 +548,7 @@
             "type": "aws:cdk:logicalId",
             "data": "GraphQLAPIURL",
             "trace": [
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:72:5)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:64:5)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -573,7 +573,7 @@
             "type": "aws:cdk:logicalId",
             "data": "GraphQLAPIKey",
             "trace": [
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:77:5)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:69:5)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
@@ -598,7 +598,7 @@
             "type": "aws:cdk:logicalId",
             "data": "StackRegion",
             "trace": [
-              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:82:5)",
+              "new GraphglWebStack (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/lib/graphgl-web-stack.ts:74:5)",
               "Object.<anonymous> (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/bin/graphgl-web.ts:7:1)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/home/tariq/Documents/GitHub/Bootcamp2021-project5/gql-web/node_modules/ts-node/src/index.ts:1056:23)",
